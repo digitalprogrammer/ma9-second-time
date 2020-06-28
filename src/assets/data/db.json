@@ -1,0 +1,31 @@
+{
+  "clientes": [
+    {
+      "cpf": "41338996959",
+      "nome": "João Geraldo Brito",
+      "sexo": "M",
+      "dat_nasc": "1980-02-21T00:00:00",
+      "email": "joao@email.com",
+      "phone": "79982120227",
+      "id": 2
+    },
+    {
+      "cpf": "030.433.685-22",
+      "nome": "Caipora Games",
+      "sexo": "m",
+      "dat_nasc": "9999999",
+      "email": "timoteo.cruz@yahoo.com.br",
+      "phone": "+5579998888995",
+      "id": 5
+    },
+    {
+      "cpf": "999 999 999 999",
+      "nome": "Eduarda Nina Aragao",
+      "sexo": "f",
+      "dat_nasc": "20/04/95",
+      "email": "timoteo.cruz@yahoo.com.br",
+      "phone": "+557991649006",
+      "id": 6
+    }
+  ]
+}

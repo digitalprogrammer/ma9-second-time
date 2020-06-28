@@ -1,0 +1,40 @@
+<table>
+  <thead>
+    <tr>
+      <th class="pl-5">CPF</th>
+      <th class="pl-5">Nome</th>
+      <th class="pl-5">Gender</th>
+      <th class="pl-5">Date</th>
+      <th class="pl-5">Email</th>
+      <th class="pl-5">Phone</th>
+      <th class="pl-5">Id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let client of clients">
+      <td>{{ client.cpf }}</td>
+      <td>{{ client.nome }}</td>
+      <td>{{ client.sexo }}</td>
+      <td>{{ client.dat_nasc }}</td>
+      <td>{{ client.email }}</td>
+      <td>{{ client.phone }}</td>
+      <td>{{ client.id }}</td>
+      <div class="col">
+        <button
+          type="button"
+          class="btn btn-warning"
+          (click)="editClient(client)"
+        >
+          Edit
+        </button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          (click)="deleteClient(client)"
+        >
+          Delete
+        </button>
+      </div>
+    </tr>
+  </tbody>
+</table>

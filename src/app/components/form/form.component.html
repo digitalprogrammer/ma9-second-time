@@ -1,0 +1,69 @@
+<form (ngSubmit)="saveClient(f)" #f="ngForm" novalidate>
+  <div class="form-group">
+    <label for="cpf">CPF</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o CPF"
+      [(ngModel)]="client.cpf"
+      name="cpf"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">Nome</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o Nome"
+      [(ngModel)]="client.nome"
+      name="nome"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">Sexo</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o Sexo"
+      [(ngModel)]="client.sexo"
+      name="sexo"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">Date</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o Date"
+      [(ngModel)]="client.dat_nasc"
+      name="dat_nasc"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">Email</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o Email"
+      [(ngModel)]="client.email"
+      name="email"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="cpf">Phone</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Digite o Phone"
+      [(ngModel)]="client.phone"
+      name="phone"
+    />
+  </div>
+
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
